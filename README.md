@@ -5,7 +5,9 @@
 ---
 
 # Odpalanie poszczególnych repo
+
 ## Front-end
+
 
 ### ⚠ Aplikacja narazie kompiluje się tylko na Mac'ach z [Xcode'em](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
 API URI jest w pliku [src/constants/Api.ts](src/constants/Api.ts)
@@ -16,6 +18,8 @@ open ios/Hackathon.xcworkspace
 ```
 
 Po otwarciu projektu, skompilować na symulatorze lub na prawdziwym urządzeniu.
+
+
 ## Back-end (wszystkie)
 Wymagana jest wersja 3.* [Python'a](https://pl.python.org/)  
 Instalacja wymaganych zależności, zależnie od systemu operacyjnego  
@@ -35,6 +39,7 @@ lub
 ```
 python3 api.py
 ```
+
 
 # Przyszłość aplikacji
 W przyszłości mamy zamiar rozbudować go o parę fajnych funkcji:
