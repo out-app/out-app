@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="ios/Hackathon/Images.xcassets/out-logo.imageset/splashscreen_1024.png" height="128"/>
+    <img src="./splashscreen_1024.png" height="128"/>
 </p>
 
 ---
