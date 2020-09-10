@@ -1,7 +1,7 @@
 # out.
 
 ## Odpalanie poszczególnych repo
-### Fronted
+### Front-end
 Aby uruchomić aplikację należy mieć pobranego [Xcode'a](https://apps.apple.com/us/app/xcode/id497799835?mt=12), bądź innego emulatora
 ```
 npm i
@@ -11,9 +11,22 @@ W razie problemów można spróbować
 ```
 npx pod-install ios
 ```
-### Backend (wszyskite)
-Wymagana jest wersja 3.* [Pythona](https://pl.python.org/)
-Zależnie od systemu operacyjnego /dev-scripts/{os}/requirements.(sh/ps1)
+### Back-end (wszystkie)
+Wymagana jest wersja 3.* [Python'a](https://pl.python.org/)  
+Instalacja wymaganych zależności, zależnie od systemu operacyjnego  
+Windows:  
 ```
-py api.py
+.\dev-scripts\windows\requirements.ps1  
+```
+Linux:  
+```
+./dev-scripts/linux/requirements.sh  
+```
+Uruchomienie serwera  
+```
+py api.py  
+```
+lub
+```
+python3 api.py
 ```
